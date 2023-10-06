@@ -1,3 +1,6 @@
+import clue1 from "../assets/pastclue1.jpg"
+import clue2 from "../assets/past-clue2.jpg"
+
 const clues = [
   {
     id: 1,
@@ -18,7 +21,7 @@ const clues = [
         2.The Password for the next clue is a single word.
       </li> <br />
       <li>
-        <img src="" alt="" className="clue-image" />
+        <img src= {clue1} alt="CLUE IMAGE" className="clue-image" />
       </li>
       <li>
         <b>HINTS:</b>
@@ -84,9 +87,9 @@ const clues = [
         3.The Password for the next clue contains more than one word but while submitting the answer do not add space between the words of the decoded message.
       </li> <br />
       <li>
-        <a href="https://soundcloud.com/jahaan-desai-312869183/past-clue-2?si=3e5b29dad6a64a97b292f21a6ad5b88f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">click here for the clue</a>
+        <a href="https://soundcloud.com/jahaan-desai-312869183/past-clue-2?si=3e5b29dad6a64a97b292f21a6ad5b88f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Click here for the clue</a>
       </li> <br />
-      <img src="" alt="" className="clue-image" />
+      <img src= {clue2} alt="" className="clue-image" />
     </ul>,
 
     answer: import.meta.env.VITE_CLUE_2,
@@ -126,13 +129,13 @@ const clues = [
         1.Follow the link provided to solve the puzzle (All link takes you to the same puzzle so open anyone)
       </li> <br />
       <li>
-        <a href="https://puzzel.org/en/jigsaw/play?p=-NfprepvfihCUiPL5Gl4">link 1</a>
+        <a target="blank" href="https://puzzel.org/en/jigsaw/play?p=-NfprepvfihCUiPL5Gl4">Link 1</a>
       </li> <br />
       <li>
-        <a href="https://puzzel.org/en/jigsaw/play?p=-Ng0Ww8x3cHhMy2-9nis">link 2</a>
+        <a target="blank" href="https://puzzel.org/en/jigsaw/play?p=-Ng0Ww8x3cHhMy2-9nis">Link 2</a>
       </li> <br />
       <li>
-        <a href="https://puzzel.org/en/jigsaw/play?p=-Ng0XObPaikGqOFtwk5d">link 3</a>
+        <a target="blank" href="https://puzzel.org/en/jigsaw/play?p=-Ng0XObPaikGqOFtwk5d">Link 3</a>
       </li> <br />
       <li>
         2.Solve riddles 1, 2 and 3 after completing instruction 1
@@ -186,7 +189,7 @@ const clues = [
 
     answer: import.meta.env.VITE_CLUE_3,
 
-    alertMessage: null
+    alertMessage: "Correct Answer!"
   },
 
   {
@@ -298,7 +301,7 @@ const clues = [
     </ul>,
     answer: import.meta.env.VITE_CLUE_4,
 
-    alertMessage: null
+    alertMessage: "Correct Answer!"
   },
 
   {
@@ -375,7 +378,7 @@ const clues = [
 
     answer: import.meta.env.VITE_CLUE_6,
 
-    alertMessage: null
+    alertMessage: "Correct Answer!"
   },
 
 ];

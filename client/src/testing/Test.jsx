@@ -18,6 +18,7 @@ function ClueComponent() {
     if (savedClueStatus) {
       setClueStatus(JSON.parse(savedClueStatus));
     }
+    window.scrollTo(0, 0)
   }, []);
 
   const handleClueButtonClick = (clueIndex) => {
@@ -51,6 +52,7 @@ function ClueComponent() {
     // Redirect to the next sequential clue if not the last clue
     if (currentClue < clues.length) {
       setCurrentClue(currentClue + 1);
+      window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     }
 
     // Open the link corresponding to the current clue in a new tab
@@ -63,6 +65,7 @@ function ClueComponent() {
 }
 
 setHasSubmitted(true);
+setAnswer("")
   };
 
 return (
