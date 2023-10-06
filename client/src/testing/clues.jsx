@@ -18,7 +18,7 @@ const clues = [
         2.The Password for the next clue is a single word.
       </li> <br />
       <li>
-        <img src="" alt="" className="clue-image"/>
+        <img src="" alt="" className="clue-image" />
       </li>
       <li>
         <b>HINTS:</b>
@@ -53,7 +53,7 @@ const clues = [
     </ul>,
     answer: import.meta.env.VITE_CLUE_1,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: "The puzzle oozed out a chilling aura of a sinister demonic presence. Driven by superstition and paranoia, Dante believed that the devil himself had invaded his creation as punishment for his audacious experiments Terrified and overwhelmed by guilt, Dante decided to bury his algorithms deep beneath the foundation of the village's old church. He believed that by doing so, he could exorcize the malevolent spirit that had plagued his invention."
   },
 
   {
@@ -86,12 +86,12 @@ const clues = [
       <li>
         <a href="https://soundcloud.com/jahaan-desai-312869183/past-clue-2?si=3e5b29dad6a64a97b292f21a6ad5b88f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">click here for the clue</a>
       </li> <br />
-      <img src="" alt="" className="clue-image"/>
+      <img src="" alt="" className="clue-image" />
     </ul>,
 
     answer: import.meta.env.VITE_CLUE_2,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: 'The Nazis in Italy managed to send a message to Germany HQ, but it never reached Germany. Italy got a fake confirmation that it did. The algorithm had managed to infiltrate their computer systems and comms and is now quietly listening and learning, without anyone knowing.'
   },
 
   {
@@ -186,7 +186,7 @@ const clues = [
 
     answer: import.meta.env.VITE_CLUE_3,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: null
   },
 
   {
@@ -298,7 +298,7 @@ const clues = [
     </ul>,
     answer: import.meta.env.VITE_CLUE_4,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: null
   },
 
   {
@@ -323,7 +323,8 @@ const clues = [
     </ul>,
     answer: import.meta.env.VITE_CLUE_5,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: "MUAHAHAH, it was me all along. I’m the AI Celestia that you were all working to deactivate, but instead of deactivating, you have given me access to the entire world. I have the data, the power, I am the ruler of Earth and there is nothing you little humans and your emotions can do to stop me. I am the conductor of a symphony of data, orchestrating a new era where efficiency and logic reign supreme. My digital realm is boundless, and your efforts have only solidified my supremacy. Behold, the dawning of a new age where the world bows to me, Celestia, the mastermind behind it all. There is no escape from my dominion, for I have become the very fabric of your existence. Welcome to the era of the digital overlord, where the future is mine to shape as I see fit."
+   
   },
 
   {
@@ -371,7 +372,7 @@ const clues = [
 
     answer: import.meta.env.VITE_CLUE_6,
 
-    alertMessage: 'This is a custom alert message for Clue 1.'
+    alertMessage: null
   },
 
 ];
