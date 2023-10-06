@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+
+/* body {
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    color: white;
+} */
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form input {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: none;
+    box-shadow: 0px 0px 12px 2px rgb(229, 229, 234);
+    color: white;
+    margin-bottom: 30px;
+    width: 30vw;
+    height: 5vh;
+}
+
+.submit_btn {
+    margin-top: 10px;
+    font-size: 24px;
+    border: none;
+    padding: 12px 20px;
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px rgb(51, 115, 234);
+    font-family: "Orbitron", sans-serif;
+    background-color: rgba(10, 9, 9, 0.054);
+    color: white;
+}
+
+.submit_btn:hover {
+    background-color: rgba(0, 0, 0, 0.424);
+}
+
+.wrong-answer {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    color: red;
+}
+
+.clue-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.clue-tab {
+    margin: 3vh 2vw;
+    height: 6vh;
+    width: 8vw;
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(10, 10, 10, 0.624);
+    border-radius: 10px;
+}
+
+.clue-tab:enabled {
+    background-color: rgba(140, 139, 139, 0.832);
+}
+
+.clue-tab:disabled {
+    background-color: rgba(65, 64, 64, 0.542);
+    color: grey;
+}
+
+.clues-container {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.clues-content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.clues-heading {
+    color: #fff;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 45px;
+}
+
+.clues-text {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.25rem;
+    text-align: justify;
+  }
