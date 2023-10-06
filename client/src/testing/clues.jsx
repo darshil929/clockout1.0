@@ -21,7 +21,7 @@ const clues = [
         2.The Password for the next clue is a single word.
       </li> <br />
       <li>
-        <img src= {clue1} alt="CLUE IMAGE" className="clue-image" />
+        <img style={{borderRadius : "20px"}} src= {clue1} alt="CLUE IMAGE" className="clue-image" />
       </li>
       <li>
         <b>HINTS:</b>
@@ -89,7 +89,7 @@ const clues = [
       <li>
         <a href="https://soundcloud.com/jahaan-desai-312869183/past-clue-2?si=3e5b29dad6a64a97b292f21a6ad5b88f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Click here for the clue</a>
       </li> <br />
-      <img src= {clue2} alt="" className="clue-image" />
+      <img style={{borderRadius : "20px"}} src= {clue2} alt="" className="clue-image" />
     </ul>,
 
     answer: import.meta.env.VITE_CLUE_2,
@@ -324,7 +324,7 @@ const clues = [
         2.SUBMIT your answer in the format : NAME_NUMBER.
       </li> <br />
       <li>
-        <a href="https://drive.google.com/file/d/1HkQVelbphJW1KRO108chxASJLmtAjiDa/view?usp=drive_link">find your code file here</a>
+        <a target="blank" href="https://drive.google.com/file/d/1HkQVelbphJW1KRO108chxASJLmtAjiDa/view?usp=drive_link">Find your code file here</a>
       </li>
     </ul>,
     answer: import.meta.env.VITE_CLUE_5,
@@ -380,6 +380,7 @@ const clues = [
 
     alertMessage: "Correct Answer!"
   },
+
 
 ];
 

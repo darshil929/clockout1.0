@@ -6,7 +6,6 @@ const Register = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("CLICKES?")
         try {
             const response = await fetch('http://localhost:3000/team/login', {
                 method: 'POST',
@@ -23,7 +22,7 @@ const Register = () => {
                 window.location.href = '/home';
             } else {
                 // Handle login failure
-                console.log('Login failed');
+                alert("Wrong Credentials.")
             }
         } catch (error) {
             // Handle error
@@ -32,7 +31,6 @@ const Register = () => {
     };
     return (
         <div>
-            {/* <Background /> */}
             <div className="main_container">
                 <div className='main_form'>
                     <h3 className='head_form'>Login here</h3>

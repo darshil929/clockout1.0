@@ -20,7 +20,8 @@ body{
 }
 
 .main_form{
-    border: 2px solid rgb(248, 246, 246);
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px 0px rgb(80, 246, 188) , 0px 2px 15px 0px rgb(80, 246, 189);
     width: 35vw ;
     display: flex;
     justify-content: center;
