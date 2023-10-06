@@ -320,6 +320,9 @@ const clues = [
       <li>
         2.SUBMIT your answer in the format : NAME_NUMBER.
       </li> <br />
+      <li>
+        <a href="https://drive.google.com/file/d/1HkQVelbphJW1KRO108chxASJLmtAjiDa/view?usp=drive_link">find your code file here</a>
+      </li>
     </ul>,
     answer: import.meta.env.VITE_CLUE_5,
 
